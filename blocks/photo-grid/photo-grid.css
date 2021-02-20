@@ -1,0 +1,34 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 16px;
+  max-width: 1184px;
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    margin: 0 auto 88px;
+    grid-gap: 16px;
+    /* свойство ниже взято из фигмы.
+      с ним картинки не тянутся на ширину экрана
+      в размерах где-то между 800 и 900 пиксвелей
+      и поэтому оно выглядит плохо. поправьте, если я не прав.
+      спасибо! :)
+      max-width: 720px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    margin: 0 auto 64px;
+    grid-gap: 12px;
+  }
+}
