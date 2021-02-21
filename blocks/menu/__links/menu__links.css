@@ -1,0 +1,16 @@
+.menu__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu__links {
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
