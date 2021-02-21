@@ -1,9 +1,4 @@
 .place__website {
-  align-self: flex-end;
-}
-
-@media screen and (max-width:767px) {
-  .place__website {
-    display: none;
-  }
+  grid-area: website;
+  align-self: end;
 }
