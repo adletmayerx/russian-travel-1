@@ -3,7 +3,8 @@
 **Описание**
 
 Одностраничный сайт с адаптивной (отзывчивой) версткой, тематически посвященный путешествиям по России.
-[Ссылка на проект](https://jusstes.github.io/russian-travel/)
+
+[jusstes.github.io](https://jusstes.github.io/russian-travel/)
 
 **Технологии**
 * HTML5 & CSS3
