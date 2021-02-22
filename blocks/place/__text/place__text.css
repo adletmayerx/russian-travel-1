@@ -16,13 +16,11 @@
   .place__text {
     max-width: 352px;
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
 @media screen and (max-width: 424px) {
   .place__text {
-    margin: 0 0 0 16px;
     max-width: 288px;
   }
 }

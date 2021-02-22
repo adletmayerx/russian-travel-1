@@ -1,4 +1,4 @@
-.lang__link {
+.header__lang-link {
   color: #fff;
   text-decoration: none;
   font-style: normal;
@@ -7,9 +7,13 @@
   line-height: 28px;
 }
 
+.header__lang-link:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 767px) {
-  .lang__link {
+  .header__lang-link {
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 20px;
   }
 }
