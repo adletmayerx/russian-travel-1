@@ -6,6 +6,12 @@
   line-height: 163%;
 }
 
+@media screen and (max-width: 1279px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .place__text {
     max-width: 352px;
@@ -14,8 +20,9 @@
   }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 424px) {
   .place__text {
-    max-width: 456px;
+    margin: 0 0 0 16px;
+    max-width: 288px;
   }
 }

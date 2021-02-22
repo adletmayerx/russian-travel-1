@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 424px) {
   .intro__text {
     margin: 0 auto 33px;
     max-width: 288px;
