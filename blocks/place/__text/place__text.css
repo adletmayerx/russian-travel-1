@@ -14,6 +14,13 @@
 
 @media screen and (max-width: 1023px) {
   .place__text {
+    max-width: 402px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
     max-width: 352px;
     font-size: 16px;
   }

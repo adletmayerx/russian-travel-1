@@ -8,7 +8,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
+  .lead__title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .lead__title {
     margin: 0 auto 16px;
     max-width: 288px;
