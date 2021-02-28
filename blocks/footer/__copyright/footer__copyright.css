@@ -4,6 +4,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {
@@ -11,4 +13,9 @@
     padding: 48px 0 0;
     line-height: 14px;
   }
+}
+
+.footer__copyright:hover {
+  opacity: .8;
+  transition: .2s linear;
 }
